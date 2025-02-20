@@ -1,0 +1,2627 @@
+{
+  "edges": [
+    {
+      "id": "ed-35788782-01f2-42a3-a723-46f5e5c634b9",
+      "type": "defaultEdge",
+      "source": "nd-d89893d5-dec7-48d3-a55f-97001290f762",
+      "target": "nm-5a22d196-763f-47fe-a538-94d593a89b4d",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [
+            "0f762:5cc43ccda62f43a73e6252421d1b1a68:upper",
+            "0f762:5cc43ccda62f43a73e6252421d1b1a68:lower",
+            "0f762:5cc43ccda62f43a73e6252421d1b1a68:variable_name"
+          ],
+          "options": {
+            "0f762:5cc43ccda62f43a73e6252421d1b1a68:lower": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": 11,
+                "n_unique": 6,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "sampling_input (1)",
+              "content": "lower"
+            },
+            "0f762:5cc43ccda62f43a73e6252421d1b1a68:upper": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": 11,
+                "n_unique": 10,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "sampling_input (1)",
+              "content": "upper"
+            },
+            "0f762:5cc43ccda62f43a73e6252421d1b1a68:variable_name": {
+              "meta": {
+                "dtype": "categories",
+                "shape": null,
+                "n_rows": 11,
+                "n_unique": 11,
+                "nan_count": 0,
+                "categories": {
+                  "lights": 1,
+                  "occupancy": 1,
+                  "gas_thickness": 1,
+                  "glazing_thickness": 1,
+                  "wind_speed_summer": 1,
+                  "wind_speed_winter": 1,
+                  "building_orientation": 1,
+                  "glazing_conductivity": 1,
+                  "sky_clearness_summer": 1,
+                  "max_drybulb_temp_summer": 1,
+                  "max_drybulb_temp_winter": 1
+                }
+              },
+              "group": "sampling_input (1)",
+              "content": "variable_name"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-f5133833-cfa7-4d72-b31a-ac63393b1d12",
+      "type": "defaultEdge",
+      "source": "nm-5a22d196-763f-47fe-a538-94d593a89b4d",
+      "target": "nm-aac5c563-c77a-4825-967d-c7d248ba1071",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [
+            "89b4d:occupancy",
+            "89b4d:glazing_thickness",
+            "89b4d:gas_thickness",
+            "89b4d:sky_clearness_summer",
+            "89b4d:glazing_conductivity",
+            "89b4d:max_drybulb_temp_summer",
+            "89b4d:building_orientation",
+            "89b4d:wind_speed_summer",
+            "89b4d:lights",
+            "89b4d:wind_speed_winter",
+            "89b4d:max_drybulb_temp_winter"
+          ],
+          "options": {
+            "89b4d:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "lights"
+            },
+            "89b4d:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "occupancy"
+            },
+            "89b4d:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "gas_thickness"
+            },
+            "89b4d:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_thickness"
+            },
+            "89b4d:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_summer"
+            },
+            "89b4d:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_winter"
+            },
+            "89b4d:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "building_orientation"
+            },
+            "89b4d:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_conductivity"
+            },
+            "89b4d:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "sky_clearness_summer"
+            },
+            "89b4d:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_summer"
+            },
+            "89b4d:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-d2cac26c-ba2d-4f52-a94d-a88186e5833b",
+      "type": "defaultEdge",
+      "source": "nm-8eb22dcd-5390-4164-9949-fe7f7210ac51",
+      "target": "nm-aac5c563-c77a-4825-967d-c7d248ba1071",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [],
+          "options": {},
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-145b6b75-6a0d-4d04-ac49-957bde95d273",
+      "type": "defaultEdge",
+      "source": "nm-aac5c563-c77a-4825-967d-c7d248ba1071",
+      "target": "nm-9bac48e1-b9d2-4d4a-b29e-375a3c2cfb90",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [
+            "89b4d:occupancy",
+            "89b4d:glazing_thickness",
+            "89b4d:gas_thickness",
+            "89b4d:sky_clearness_summer",
+            "89b4d:glazing_conductivity",
+            "89b4d:max_drybulb_temp_summer",
+            "89b4d:building_orientation",
+            "89b4d:wind_speed_summer",
+            "89b4d:lights",
+            "89b4d:wind_speed_winter",
+            "89b4d:max_drybulb_temp_winter"
+          ],
+          "options": {
+            "89b4d:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "lights"
+            },
+            "89b4d:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "occupancy"
+            },
+            "89b4d:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "gas_thickness"
+            },
+            "89b4d:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_thickness"
+            },
+            "89b4d:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_summer"
+            },
+            "89b4d:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_winter"
+            },
+            "89b4d:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "building_orientation"
+            },
+            "89b4d:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_conductivity"
+            },
+            "89b4d:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "sky_clearness_summer"
+            },
+            "89b4d:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_summer"
+            },
+            "89b4d:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-a21d4b4c-4739-4e4c-bbdb-da3d51d2d9ca",
+      "type": "defaultEdge",
+      "source": "nm-9bac48e1-b9d2-4d4a-b29e-375a3c2cfb90",
+      "target": "nd-77185ad3-ca3f-4877-997e-df6475163892",
+      "properties": {
+        "features_title": {
+          "cache": [
+            "89b4d:occupancy",
+            "89b4d:glazing_thickness",
+            "89b4d:gas_thickness",
+            "89b4d:sky_clearness_summer",
+            "cfb90:net_site_energy",
+            "89b4d:glazing_conductivity",
+            "89b4d:max_drybulb_temp_summer",
+            "89b4d:building_orientation",
+            "89b4d:wind_speed_summer",
+            "89b4d:lights",
+            "89b4d:wind_speed_winter",
+            "89b4d:max_drybulb_temp_winter"
+          ],
+          "value": [
+            "89b4d:occupancy",
+            "89b4d:glazing_thickness",
+            "89b4d:gas_thickness",
+            "89b4d:sky_clearness_summer",
+            "cfb90:net_site_energy",
+            "89b4d:glazing_conductivity",
+            "89b4d:max_drybulb_temp_summer",
+            "89b4d:building_orientation",
+            "89b4d:wind_speed_summer",
+            "89b4d:lights",
+            "89b4d:wind_speed_winter",
+            "89b4d:max_drybulb_temp_winter"
+          ],
+          "options": {
+            "89b4d:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "lights"
+            },
+            "89b4d:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "occupancy"
+            },
+            "89b4d:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "gas_thickness"
+            },
+            "cfb90:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "RemoteSoftware",
+              "content": "net_site_energy"
+            },
+            "89b4d:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_thickness"
+            },
+            "89b4d:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_summer"
+            },
+            "89b4d:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_winter"
+            },
+            "89b4d:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "building_orientation"
+            },
+            "89b4d:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_conductivity"
+            },
+            "89b4d:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "sky_clearness_summer"
+            },
+            "89b4d:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_summer"
+            },
+            "89b4d:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-9ab783df-dcbc-4e92-83a9-c2b9119e1ea5",
+      "type": "defaultEdge",
+      "source": "nd-77185ad3-ca3f-4877-997e-df6475163892",
+      "target": "nm-22c8bad2-a6cc-4e2b-a55d-8eb4ddf1ab41",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [
+            "89b4d:occupancy",
+            "89b4d:glazing_thickness",
+            "89b4d:gas_thickness",
+            "89b4d:sky_clearness_summer",
+            "cfb90:net_site_energy",
+            "89b4d:glazing_conductivity",
+            "89b4d:max_drybulb_temp_summer",
+            "89b4d:building_orientation",
+            "89b4d:wind_speed_summer",
+            "89b4d:lights",
+            "89b4d:wind_speed_winter",
+            "89b4d:max_drybulb_temp_winter"
+          ],
+          "options": {
+            "89b4d:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "lights"
+            },
+            "89b4d:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "occupancy"
+            },
+            "89b4d:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "gas_thickness"
+            },
+            "cfb90:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "RemoteSoftware",
+              "content": "net_site_energy"
+            },
+            "89b4d:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_thickness"
+            },
+            "89b4d:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_summer"
+            },
+            "89b4d:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "wind_speed_winter"
+            },
+            "89b4d:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "building_orientation"
+            },
+            "89b4d:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "glazing_conductivity"
+            },
+            "89b4d:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "sky_clearness_summer"
+            },
+            "89b4d:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_summer"
+            },
+            "89b4d:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "LatinHypercubeSampling",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-751a10e0-de6d-454b-8a1b-4d8f883177d9",
+      "type": "defaultEdge",
+      "source": "nm-22c8bad2-a6cc-4e2b-a55d-8eb4ddf1ab41",
+      "target": "nd-2421b475-cf46-4cc8-b647-18d3c7eb563b",
+      "properties": {
+        "features_title": {
+          "cache": [
+            "1ab41:train:wind_speed_summer",
+            "1ab41:train:net_site_energy",
+            "1ab41:train:glazing_conductivity",
+            "1ab41:train:max_drybulb_temp_summer",
+            "1ab41:train:occupancy",
+            "1ab41:train:max_drybulb_temp_winter",
+            "1ab41:train:gas_thickness",
+            "1ab41:train:lights",
+            "1ab41:train:glazing_thickness",
+            "1ab41:train:sky_clearness_summer",
+            "1ab41:train:wind_speed_winter",
+            "1ab41:train:building_orientation"
+          ],
+          "value": [
+            "1ab41:train:wind_speed_summer",
+            "1ab41:train:net_site_energy",
+            "1ab41:train:glazing_conductivity",
+            "1ab41:train:max_drybulb_temp_summer",
+            "1ab41:train:occupancy",
+            "1ab41:train:max_drybulb_temp_winter",
+            "1ab41:train:gas_thickness",
+            "1ab41:train:lights",
+            "1ab41:train:glazing_thickness",
+            "1ab41:train:sky_clearness_summer",
+            "1ab41:train:wind_speed_winter",
+            "1ab41:train:building_orientation"
+          ],
+          "options": {
+            "1ab41:test:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "lights"
+            },
+            "1ab41:train:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "lights"
+            },
+            "1ab41:test:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "occupancy"
+            },
+            "1ab41:train:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "occupancy"
+            },
+            "1ab41:test:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "gas_thickness"
+            },
+            "1ab41:train:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "gas_thickness"
+            },
+            "1ab41:test:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "net_site_energy"
+            },
+            "1ab41:train:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "net_site_energy"
+            },
+            "1ab41:test:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "glazing_thickness"
+            },
+            "1ab41:test:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "wind_speed_summer"
+            },
+            "1ab41:test:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "wind_speed_winter"
+            },
+            "1ab41:train:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "glazing_thickness"
+            },
+            "1ab41:train:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "wind_speed_summer"
+            },
+            "1ab41:train:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "wind_speed_winter"
+            },
+            "1ab41:test:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "building_orientation"
+            },
+            "1ab41:test:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "glazing_conductivity"
+            },
+            "1ab41:test:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "sky_clearness_summer"
+            },
+            "1ab41:train:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "building_orientation"
+            },
+            "1ab41:train:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "glazing_conductivity"
+            },
+            "1ab41:train:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "sky_clearness_summer"
+            },
+            "1ab41:test:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "max_drybulb_temp_summer"
+            },
+            "1ab41:test:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "max_drybulb_temp_winter"
+            },
+            "1ab41:train:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "max_drybulb_temp_summer"
+            },
+            "1ab41:train:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": true
+        }
+      }
+    },
+    {
+      "id": "ed-1436fbb6-2a0b-40e4-a766-2a24357d9fbb",
+      "type": "defaultEdge",
+      "source": "nm-22c8bad2-a6cc-4e2b-a55d-8eb4ddf1ab41",
+      "target": "nd-5f44cce1-e02d-4ca2-b71b-5e8691bd7795",
+      "properties": {
+        "features_title": {
+          "cache": [
+            "1ab41:test:wind_speed_summer",
+            "1ab41:test:occupancy",
+            "1ab41:test:glazing_conductivity",
+            "1ab41:test:gas_thickness",
+            "1ab41:test:net_site_energy",
+            "1ab41:test:building_orientation",
+            "1ab41:test:glazing_thickness",
+            "1ab41:test:max_drybulb_temp_winter",
+            "1ab41:test:max_drybulb_temp_summer",
+            "1ab41:test:wind_speed_winter",
+            "1ab41:test:lights",
+            "1ab41:test:sky_clearness_summer"
+          ],
+          "value": [
+            "1ab41:test:wind_speed_summer",
+            "1ab41:test:occupancy",
+            "1ab41:test:glazing_conductivity",
+            "1ab41:test:gas_thickness",
+            "1ab41:test:net_site_energy",
+            "1ab41:test:building_orientation",
+            "1ab41:test:glazing_thickness",
+            "1ab41:test:max_drybulb_temp_winter",
+            "1ab41:test:max_drybulb_temp_summer",
+            "1ab41:test:wind_speed_winter",
+            "1ab41:test:lights",
+            "1ab41:test:sky_clearness_summer"
+          ],
+          "options": {
+            "1ab41:test:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "lights"
+            },
+            "1ab41:train:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "lights"
+            },
+            "1ab41:test:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "occupancy"
+            },
+            "1ab41:train:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "occupancy"
+            },
+            "1ab41:test:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "gas_thickness"
+            },
+            "1ab41:train:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "gas_thickness"
+            },
+            "1ab41:test:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "net_site_energy"
+            },
+            "1ab41:train:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "net_site_energy"
+            },
+            "1ab41:test:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "glazing_thickness"
+            },
+            "1ab41:test:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "wind_speed_summer"
+            },
+            "1ab41:test:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "wind_speed_winter"
+            },
+            "1ab41:train:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "glazing_thickness"
+            },
+            "1ab41:train:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "wind_speed_summer"
+            },
+            "1ab41:train:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "wind_speed_winter"
+            },
+            "1ab41:test:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "building_orientation"
+            },
+            "1ab41:test:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "glazing_conductivity"
+            },
+            "1ab41:test:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "sky_clearness_summer"
+            },
+            "1ab41:train:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "building_orientation"
+            },
+            "1ab41:train:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "glazing_conductivity"
+            },
+            "1ab41:train:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "sky_clearness_summer"
+            },
+            "1ab41:test:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "max_drybulb_temp_summer"
+            },
+            "1ab41:test:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "max_drybulb_temp_winter"
+            },
+            "1ab41:train:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "max_drybulb_temp_summer"
+            },
+            "1ab41:train:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": true
+        }
+      }
+    },
+    {
+      "id": "ed-5d34768b-e1e0-4193-b72e-fd65799cc6ee",
+      "type": "defaultEdge",
+      "source": "nd-2421b475-cf46-4cc8-b647-18d3c7eb563b",
+      "target": "nm-35ffd95c-bd5b-4b95-a499-0ea1dacf6110",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [
+            "1ab41:train:wind_speed_summer",
+            "1ab41:train:net_site_energy",
+            "1ab41:train:glazing_conductivity",
+            "1ab41:train:max_drybulb_temp_summer",
+            "1ab41:train:occupancy",
+            "1ab41:train:max_drybulb_temp_winter",
+            "1ab41:train:gas_thickness",
+            "1ab41:train:lights",
+            "1ab41:train:glazing_thickness",
+            "1ab41:train:sky_clearness_summer",
+            "1ab41:train:wind_speed_winter",
+            "1ab41:train:building_orientation"
+          ],
+          "options": {
+            "1ab41:train:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "lights"
+            },
+            "1ab41:train:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "occupancy"
+            },
+            "1ab41:train:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "gas_thickness"
+            },
+            "1ab41:train:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "net_site_energy"
+            },
+            "1ab41:train:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "glazing_thickness"
+            },
+            "1ab41:train:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "wind_speed_summer"
+            },
+            "1ab41:train:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "wind_speed_winter"
+            },
+            "1ab41:train:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "building_orientation"
+            },
+            "1ab41:train:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "glazing_conductivity"
+            },
+            "1ab41:train:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "sky_clearness_summer"
+            },
+            "1ab41:train:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "max_drybulb_temp_summer"
+            },
+            "1ab41:train:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [train]",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ea-feec7b5b-1ad4-4e7b-809c-fc0fec7f5b3a",
+      "type": "applyEdge",
+      "source": "nm-35ffd95c-bd5b-4b95-a499-0ea1dacf6110",
+      "target": "nd-5f44cce1-e02d-4ca2-b71b-5e8691bd7795",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [],
+          "options": {},
+          "is_filtered": false
+        }
+      }
+    },
+    {
+      "id": "ed-bb1b93c7-d0a0-4981-b97e-6aa710e77a8e",
+      "type": "defaultEdge",
+      "source": "nd-5f44cce1-e02d-4ca2-b71b-5e8691bd7795",
+      "target": "nm-4e23c045-8e15-4b84-a7ef-06051f46c1d0",
+      "properties": {
+        "features_title": {
+          "cache": [],
+          "value": [
+            "f6110:predict",
+            "1ab41:test:wind_speed_summer",
+            "1ab41:test:occupancy",
+            "1ab41:test:glazing_conductivity",
+            "1ab41:test:gas_thickness",
+            "1ab41:test:net_site_energy",
+            "1ab41:test:building_orientation",
+            "1ab41:test:max_drybulb_temp_winter",
+            "1ab41:test:max_drybulb_temp_summer",
+            "1ab41:test:glazing_thickness",
+            "1ab41:test:wind_speed_winter",
+            "1ab41:test:lights",
+            "1ab41:test:sky_clearness_summer"
+          ],
+          "options": {
+            "f6110:predict": {
+              "meta": {
+                "dtype": "object",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "XGBRegressorModel",
+              "content": "predict"
+            },
+            "1ab41:test:lights": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "lights"
+            },
+            "1ab41:test:occupancy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "occupancy"
+            },
+            "1ab41:test:gas_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "gas_thickness"
+            },
+            "1ab41:test:net_site_energy": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "net_site_energy"
+            },
+            "1ab41:test:glazing_thickness": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "glazing_thickness"
+            },
+            "1ab41:test:wind_speed_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "wind_speed_summer"
+            },
+            "1ab41:test:wind_speed_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "wind_speed_winter"
+            },
+            "1ab41:test:building_orientation": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "building_orientation"
+            },
+            "1ab41:test:glazing_conductivity": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "glazing_conductivity"
+            },
+            "1ab41:test:sky_clearness_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "sky_clearness_summer"
+            },
+            "1ab41:test:max_drybulb_temp_summer": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "max_drybulb_temp_summer"
+            },
+            "1ab41:test:max_drybulb_temp_winter": {
+              "meta": {
+                "dtype": "float",
+                "shape": null,
+                "n_rows": null,
+                "n_unique": null,
+                "nan_count": 0,
+                "categories": {}
+              },
+              "group": "TrainAndTest [test]",
+              "content": "max_drybulb_temp_winter"
+            }
+          },
+          "is_filtered": false
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "nd-d89893d5-dec7-48d3-a55f-97001290f762",
+      "note": "",
+      "type": "defaultNode",
+      "index": "0f762:Default:Index",
+      "label": "df_0",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "features_title": {
+        "cache": [],
+        "value": [
+          "0f762:5cc43ccda62f43a73e6252421d1b1a68:upper",
+          "0f762:5cc43ccda62f43a73e6252421d1b1a68:lower",
+          "0f762:5cc43ccda62f43a73e6252421d1b1a68:variable_name"
+        ],
+        "options": {
+          "0f762:5cc43ccda62f43a73e6252421d1b1a68:lower": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": 11,
+              "n_unique": 6,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "sampling_input (1)",
+            "content": "lower"
+          },
+          "0f762:5cc43ccda62f43a73e6252421d1b1a68:upper": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": 11,
+              "n_unique": 10,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "sampling_input (1)",
+            "content": "upper"
+          },
+          "0f762:5cc43ccda62f43a73e6252421d1b1a68:variable_name": {
+            "meta": {
+              "dtype": "categories",
+              "shape": null,
+              "n_rows": 11,
+              "n_unique": 11,
+              "nan_count": 0,
+              "categories": {
+                "lights": 1,
+                "occupancy": 1,
+                "gas_thickness": 1,
+                "glazing_thickness": 1,
+                "wind_speed_summer": 1,
+                "wind_speed_winter": 1,
+                "building_orientation": 1,
+                "glazing_conductivity": 1,
+                "sky_clearness_summer": 1,
+                "max_drybulb_temp_summer": 1,
+                "max_drybulb_temp_winter": 1
+              }
+            },
+            "group": "sampling_input (1)",
+            "content": "variable_name"
+          }
+        },
+        "is_filtered": false
+      }
+    },
+    {
+      "id": "nm-5a22d196-763f-47fe-a538-94d593a89b4d",
+      "note": "",
+      "type": "methods",
+      "label": "LatinHypercubeSampling_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "LatinHypercubeSampling.et": 15,
+        "LatinHypercubeSampling.nt": 75,
+        "LatinHypercubeSampling.criterion": "center",
+        "LatinHypercubeSampling.window_size": 0.1,
+        "LatinHypercubeSampling.random_state": null,
+        "LatinHypercubeSampling.var_names_str": "max_drybulb_temp_winter,max_drybulb_temp_summer,wind_speed_winter,wind_speed_summer,sky_clearness_summer,building_orientation,occupancy,lights,gas_thickness,glazing_thickness,glazing_conductivity"
+      },
+      "models_title": "LatinHypercubeSampling",
+      "default_properties": {
+        "LatinHypercubeSampling.et": 15,
+        "LatinHypercubeSampling.nt": 75,
+        "LatinHypercubeSampling.criterion": "center",
+        "LatinHypercubeSampling.window_size": 0.1,
+        "LatinHypercubeSampling.random_state": null,
+        "LatinHypercubeSampling.var_names_str": "x1,x2"
+      }
+    },
+    {
+      "id": "nm-aac5c563-c77a-4825-967d-c7d248ba1071",
+      "note": "",
+      "type": "methods",
+      "label": "StreamRecallingModel_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "StreamRecallingModel.node_model": "nm-4e23c045-8e15-4b84-a7ef-06051f46c1d0"
+      },
+      "models_title": "StreamRecallingModel",
+      "default_properties": {
+        "StreamRecallingModel.node_model": "nm-9bac48e1-b9d2-4d4a-b29e-375a3c2cfb90"
+      }
+    },
+    {
+      "id": "nm-8eb22dcd-5390-4164-9949-fe7f7210ac51",
+      "note": "",
+      "type": "methods",
+      "label": "MetricCondition_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "MetricCondition.metric": "r2",
+        "MetricCondition.count_iter": 15,
+        "MetricCondition.metric_threshold": 0.95
+      },
+      "models_title": "MetricCondition",
+      "default_properties": {
+        "MetricCondition.metric": "symmetric_mean_absolute_percentage_error",
+        "MetricCondition.count_iter": 15,
+        "MetricCondition.metric_threshold": 0.01
+      }
+    },
+    {
+      "id": "nm-9bac48e1-b9d2-4d4a-b29e-375a3c2cfb90",
+      "note": "",
+      "type": "methods",
+      "label": "RemoteSoftware_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "RemoteSoftware.url": "http://212.67.12.227:1337/api/v1/polysurm/softwares/eplus-petersburg/",
+        "RemoteSoftware.proxy": "http://proxy.net.osu.ru:3128",
+        "RemoteSoftware.timeout": null,
+        "RemoteSoftware.password": null,
+        "RemoteSoftware.username": null,
+        "RemoteSoftware.output_feat_str": "net_site_energy"
+      },
+      "models_title": "RemoteSoftware",
+      "default_properties": {
+        "RemoteSoftware.url": "http://127.0.0.1:5000/api/v1/func/rozenbrock/",
+        "RemoteSoftware.proxy": null,
+        "RemoteSoftware.timeout": null,
+        "RemoteSoftware.password": null,
+        "RemoteSoftware.username": null,
+        "RemoteSoftware.output_feat_str": "f(x)"
+      }
+    },
+    {
+      "id": "nd-77185ad3-ca3f-4877-997e-df6475163892",
+      "note": "",
+      "type": "defaultNode",
+      "index": "63892:Default:Index",
+      "label": "df_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "features_title": {
+        "cache": [],
+        "value": [
+          "89b4d:occupancy",
+          "89b4d:glazing_thickness",
+          "89b4d:gas_thickness",
+          "89b4d:sky_clearness_summer",
+          "cfb90:net_site_energy",
+          "89b4d:glazing_conductivity",
+          "89b4d:max_drybulb_temp_summer",
+          "89b4d:building_orientation",
+          "89b4d:wind_speed_summer",
+          "89b4d:lights",
+          "89b4d:wind_speed_winter",
+          "89b4d:max_drybulb_temp_winter"
+        ],
+        "options": {
+          "89b4d:lights": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "lights"
+          },
+          "89b4d:occupancy": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "occupancy"
+          },
+          "89b4d:gas_thickness": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "gas_thickness"
+          },
+          "cfb90:net_site_energy": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "RemoteSoftware",
+            "content": "net_site_energy"
+          },
+          "89b4d:glazing_thickness": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "glazing_thickness"
+          },
+          "89b4d:wind_speed_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "wind_speed_summer"
+          },
+          "89b4d:wind_speed_winter": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "wind_speed_winter"
+          },
+          "89b4d:building_orientation": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "building_orientation"
+          },
+          "89b4d:glazing_conductivity": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "glazing_conductivity"
+          },
+          "89b4d:sky_clearness_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "sky_clearness_summer"
+          },
+          "89b4d:max_drybulb_temp_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "max_drybulb_temp_summer"
+          },
+          "89b4d:max_drybulb_temp_winter": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "LatinHypercubeSampling",
+            "content": "max_drybulb_temp_winter"
+          }
+        },
+        "is_filtered": false
+      }
+    },
+    {
+      "id": "nm-22c8bad2-a6cc-4e2b-a55d-8eb4ddf1ab41",
+      "note": "",
+      "type": "methods",
+      "label": "TrainAndTest_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "TrainAndTest.shuffle": true,
+        "TrainAndTest.stratify": "",
+        "TrainAndTest.test_size": 0.3,
+        "TrainAndTest.train_size": null,
+        "TrainAndTest.random_state": null,
+        "TrainAndTest.target_column": "net_site_energy"
+      },
+      "models_title": "TrainAndTest",
+      "default_properties": {
+        "TrainAndTest.shuffle": true,
+        "TrainAndTest.stratify": "",
+        "TrainAndTest.test_size": 0.25,
+        "TrainAndTest.train_size": null,
+        "TrainAndTest.random_state": null,
+        "TrainAndTest.target_column": "cfb90:net_site_energy"
+      }
+    },
+    {
+      "id": "nd-2421b475-cf46-4cc8-b647-18d3c7eb563b",
+      "note": "",
+      "type": "defaultNode",
+      "index": "b563b:Default:Index",
+      "label": "df_2",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "features_title": {
+        "cache": [],
+        "value": [
+          "1ab41:train:wind_speed_summer",
+          "1ab41:train:net_site_energy",
+          "1ab41:train:glazing_conductivity",
+          "1ab41:train:max_drybulb_temp_summer",
+          "1ab41:train:occupancy",
+          "1ab41:train:max_drybulb_temp_winter",
+          "1ab41:train:gas_thickness",
+          "1ab41:train:lights",
+          "1ab41:train:glazing_thickness",
+          "1ab41:train:sky_clearness_summer",
+          "1ab41:train:wind_speed_winter",
+          "1ab41:train:building_orientation"
+        ],
+        "options": {
+          "1ab41:train:lights": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "lights"
+          },
+          "1ab41:train:occupancy": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "occupancy"
+          },
+          "1ab41:train:gas_thickness": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "gas_thickness"
+          },
+          "1ab41:train:net_site_energy": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "net_site_energy"
+          },
+          "1ab41:train:glazing_thickness": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "glazing_thickness"
+          },
+          "1ab41:train:wind_speed_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "wind_speed_summer"
+          },
+          "1ab41:train:wind_speed_winter": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "wind_speed_winter"
+          },
+          "1ab41:train:building_orientation": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "building_orientation"
+          },
+          "1ab41:train:glazing_conductivity": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "glazing_conductivity"
+          },
+          "1ab41:train:sky_clearness_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "sky_clearness_summer"
+          },
+          "1ab41:train:max_drybulb_temp_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "max_drybulb_temp_summer"
+          },
+          "1ab41:train:max_drybulb_temp_winter": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [train]",
+            "content": "max_drybulb_temp_winter"
+          }
+        },
+        "is_filtered": false
+      }
+    },
+    {
+      "id": "nd-5f44cce1-e02d-4ca2-b71b-5e8691bd7795",
+      "note": "",
+      "type": "defaultNode",
+      "index": "d7795:Default:Index",
+      "label": "df_3",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "features_title": {
+        "cache": [],
+        "value": [
+          "f6110:predict",
+          "1ab41:test:wind_speed_summer",
+          "1ab41:test:occupancy",
+          "1ab41:test:glazing_conductivity",
+          "1ab41:test:gas_thickness",
+          "1ab41:test:net_site_energy",
+          "1ab41:test:building_orientation",
+          "1ab41:test:max_drybulb_temp_winter",
+          "1ab41:test:max_drybulb_temp_summer",
+          "1ab41:test:glazing_thickness",
+          "1ab41:test:wind_speed_winter",
+          "1ab41:test:lights",
+          "1ab41:test:sky_clearness_summer"
+        ],
+        "options": {
+          "f6110:predict": {
+            "meta": {
+              "dtype": "object",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "XGBRegressorModel",
+            "content": "predict"
+          },
+          "1ab41:test:lights": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "lights"
+          },
+          "1ab41:test:occupancy": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "occupancy"
+          },
+          "1ab41:test:gas_thickness": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "gas_thickness"
+          },
+          "1ab41:test:net_site_energy": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "net_site_energy"
+          },
+          "1ab41:test:glazing_thickness": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "glazing_thickness"
+          },
+          "1ab41:test:wind_speed_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "wind_speed_summer"
+          },
+          "1ab41:test:wind_speed_winter": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "wind_speed_winter"
+          },
+          "1ab41:test:building_orientation": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "building_orientation"
+          },
+          "1ab41:test:glazing_conductivity": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "glazing_conductivity"
+          },
+          "1ab41:test:sky_clearness_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "sky_clearness_summer"
+          },
+          "1ab41:test:max_drybulb_temp_summer": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "max_drybulb_temp_summer"
+          },
+          "1ab41:test:max_drybulb_temp_winter": {
+            "meta": {
+              "dtype": "float",
+              "shape": null,
+              "n_rows": null,
+              "n_unique": null,
+              "nan_count": 0,
+              "categories": {}
+            },
+            "group": "TrainAndTest [test]",
+            "content": "max_drybulb_temp_winter"
+          }
+        },
+        "is_filtered": false
+      }
+    },
+    {
+      "id": "nm-35ffd95c-bd5b-4b95-a499-0ea1dacf6110",
+      "note": "",
+      "type": "methods",
+      "label": "XGBRegressorModel_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "XGBRegressorModel.gamma": null,
+        "XGBRegressorModel.booster": null,
+        "XGBRegressorModel.max_bin": null,
+        "XGBRegressorModel.missing": "np.nan",
+        "XGBRegressorModel.max_depth": null,
+        "XGBRegressorModel.objective": null,
+        "XGBRegressorModel.reg_alpha": null,
+        "XGBRegressorModel.subsample": null,
+        "XGBRegressorModel.base_score": null,
+        "XGBRegressorModel.max_leaves": null,
+        "XGBRegressorModel.reg_lambda": null,
+        "XGBRegressorModel.eval_metric": null,
+        "XGBRegressorModel.grow_policy": null,
+        "XGBRegressorModel.tree_method": null,
+        "XGBRegressorModel.n_estimators": 100,
+        "XGBRegressorModel.random_state": null,
+        "XGBRegressorModel.learning_rate": null,
+        "XGBRegressorModel.target_column": "1ab41:train:net_site_energy",
+        "XGBRegressorModel.max_delta_step": null,
+        "XGBRegressorModel.multi_strategy": null,
+        "XGBRegressorModel.importance_type": null,
+        "XGBRegressorModel.colsample_bynode": null,
+        "XGBRegressorModel.colsample_bytree": null,
+        "XGBRegressorModel.min_child_weight": null,
+        "XGBRegressorModel.scale_pos_weight": null,
+        "XGBRegressorModel.colsample_bylevel": null,
+        "XGBRegressorModel.max_cat_threshold": null,
+        "XGBRegressorModel.max_cat_to_onehot": null,
+        "XGBRegressorModel.enable_categorical": false,
+        "XGBRegressorModel.predict_column_name": "predict",
+        "XGBRegressorModel.validate_parameters": null,
+        "XGBRegressorModel.early_stopping_rounds": null
+      },
+      "models_title": "XGBRegressorModel",
+      "default_properties": {
+        "XGBRegressorModel.gamma": null,
+        "XGBRegressorModel.booster": null,
+        "XGBRegressorModel.max_bin": null,
+        "XGBRegressorModel.missing": "np.nan",
+        "XGBRegressorModel.max_depth": null,
+        "XGBRegressorModel.objective": null,
+        "XGBRegressorModel.reg_alpha": null,
+        "XGBRegressorModel.subsample": null,
+        "XGBRegressorModel.base_score": null,
+        "XGBRegressorModel.max_leaves": null,
+        "XGBRegressorModel.reg_lambda": null,
+        "XGBRegressorModel.eval_metric": null,
+        "XGBRegressorModel.grow_policy": null,
+        "XGBRegressorModel.tree_method": null,
+        "XGBRegressorModel.n_estimators": 100,
+        "XGBRegressorModel.random_state": null,
+        "XGBRegressorModel.learning_rate": null,
+        "XGBRegressorModel.target_column": "1ab41:train:net_site_energy",
+        "XGBRegressorModel.max_delta_step": null,
+        "XGBRegressorModel.multi_strategy": null,
+        "XGBRegressorModel.importance_type": null,
+        "XGBRegressorModel.colsample_bynode": null,
+        "XGBRegressorModel.colsample_bytree": null,
+        "XGBRegressorModel.min_child_weight": null,
+        "XGBRegressorModel.scale_pos_weight": null,
+        "XGBRegressorModel.colsample_bylevel": null,
+        "XGBRegressorModel.max_cat_threshold": null,
+        "XGBRegressorModel.max_cat_to_onehot": null,
+        "XGBRegressorModel.enable_categorical": false,
+        "XGBRegressorModel.predict_column_name": "predict",
+        "XGBRegressorModel.validate_parameters": null,
+        "XGBRegressorModel.early_stopping_rounds": null
+      }
+    },
+    {
+      "id": "nm-4e23c045-8e15-4b84-a7ef-06051f46c1d0",
+      "note": "",
+      "type": "methods",
+      "label": "RegressionScorer_1",
+      "group_id": null,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "properties": {
+        "RegressionScorer.target": "auto",
+        "RegressionScorer.predict": "auto"
+      },
+      "models_title": "RegressionScorer",
+      "default_properties": {
+        "RegressionScorer.target": "auto",
+        "RegressionScorer.predict": "auto"
+      }
+    }
+  ]
+}
